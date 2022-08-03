@@ -29,3 +29,6 @@ console.log(message3);
 const [meat, masato] = like;
 console.log(`${meat}と${masato}だよ`);
 
+//デフォルト値・引数
+const sayHello = (yourName = "ゲスト") => console.log(`こんにちは、${yourName}さん！`);
+sayHello("神谷");
